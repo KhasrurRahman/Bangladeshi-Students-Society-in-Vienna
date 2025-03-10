@@ -1,6 +1,8 @@
 [build]
   publish = "public"
   command = "yarn build"
+  environment = { NODE_VERSION = "18.17.0" }
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+  
